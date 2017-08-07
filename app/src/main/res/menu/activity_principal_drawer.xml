@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="Eventos" android:icon="@mipmap/ic_menu_moto">
+        <menu>
+            <item
+                android:id="@+id/menu_evento_visualizar"
+                android:icon="@mipmap/ic_menu_evento"
+                android:title="Visualizar" />
+            <item
+                android:id="@+id/menu_evento_add"
+                android:icon="@mipmap/ic_menu_evento_add"
+                android:title="Adicionar" />
+        </menu>
+    </item>
+
+    <item android:title="Moto Grupos" android:icon="@mipmap/ic_menu_motogrupo">
+        <menu>
+            <item
+                android:id="@+id/menu_grupos_visualizar"
+                android:icon="@mipmap/ic_menu_grupo"
+                android:title="Visualizar" />
+            <item
+                android:id="@+id/menu_grupos_add"
+                android:icon="@mipmap/ic_menu_grupo_add"
+                android:title="Adicionar" />
+        </menu>
+    </item>
+
+    <item android:title="Classificados" android:icon="@mipmap/ic_menu_classificados_anuncio">
+        <menu>
+            <item
+                android:id="@+id/menu_classificados_visualizar"
+                android:icon="@mipmap/ic_menu_classificados"
+                android:title="Visualizar" />
+            <item
+                android:id="@+id/menu_classificados_add"
+                android:icon="@mipmap/ic_menu_evento_add"
+                android:title="Adicionar" />
+        </menu>
+    </item>
+
+
+</menu>

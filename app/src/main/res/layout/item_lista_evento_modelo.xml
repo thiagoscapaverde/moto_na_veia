@@ -1,0 +1,55 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgListEvento"
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true">
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Enconto de Sapiranga"
+        android:id="@+id/lblListNome"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imgListEvento">
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/lblListCidade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblListNome"
+        android:layout_toRightOf="@+id/imgListEvento"
+        android:text="Porto Alegre"
+        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+    <TextView
+        android:id="@+id/lblListSeparador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblListNome"
+        android:layout_toRightOf="@+id/lblListCidade"
+        android:text=" - "
+        android:textAppearance="?android:attr/textAppearanceSmall"/>
+    <TextView
+        android:id="@+id/lblListUF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblListNome"
+        android:layout_toRightOf="@+id/lblListSeparador"
+        android:text="RS"
+        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+
+</RelativeLayout>
